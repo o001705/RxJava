@@ -3,10 +3,10 @@ package com.ravik.rxhello;
 import java.io.IOException;
 
 public class RxHello {
-    public RxHello() throws IOException {
+    public RxHello() {
     }
 
-    public static void main(String args[]) throws IOException, InterruptedException {
+    public static void main(String [] args) throws IOException {
 
         RxBinFileCopy x = new RxBinFileCopy("d:\\MediaCollection.json", "d:\\MediaCollection-copy.json");
         long start = System.currentTimeMillis();
